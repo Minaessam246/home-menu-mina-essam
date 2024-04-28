@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <link rel="stylesheet" href="styles .css"> 
+    
+</head>
+<body>
+    <div class="btn-primary"> <button onclick="changeTheme('theme1')" id="mina" >light mode</button>
+        <button onclick="changeTheme('theme2')" id="mina">dark mode</button></div>
+    <div id="content" class="theme1">
+    <section class="menu-section">
+        <h2 class="section-heading">Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                
+                <div class="menu-item-content">
+                    <h3 class="menu-item-heading">Specialty Pizza</h3>
+                    <p class="menu-item-description">Delicious combination of fresh ingredients and savory toppings</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                
+                <div class="menu-item-content">
+                    <h3 class="menu-item-heading">Pasta Delight</h3>
+                    <p class="menu-item-description">Rich and flavorful pasta dishes that satisfy your cravings</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                
+                <div class="menu-item-content">
+                    <h3 class="menu-item-heading">Burger</h3>
+                    <p class="menu-item-description">Juicy beef patty served with fresh lettuce, tomato, and cheese</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                
+                <div class="menu-item-content">
+                    <h3 class="menu-item-heading">Fried Chicken</h3>
+                    <p class="menu-item-description">Crispy fried chicken pieces served with seasoned fries</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                
+                <div class="menu-item-content">
+                    <h3 class="menu-item-heading">Seafood</h3>
+                    <p class="menu-item-description">Freshly caught seafood served with flavorful sauce</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                
+                <div class="menu-item-content">
+                    <h3 class="menu-item-heading">Desserts</h3>
+                    <p class="menu-item-description">Sweet treats to satisfy your sweet tooth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2 class="section-heading">Gallery</h2>
+        <div class="buttons">
+            <button onclick="displayImage(1)">1</button>
+            <button onclick="displayImage(2)">2</button>
+            <button onclick="displayImage(3)">3</button>
+            <button onclick="displayImage(4)">4</button>
+            <button onclick="displayImage(5)">5</button>
+            <button onclick="displayImage(6)">6</button>
+        </div>
+        <div class="image-container">
+            <img id="image" src="gallery1.jpg" alt="Image Viewer">
+        </div>
+    </section>
+    <script src="script.js"></script>
+    </div>
+</body>  
+</html>
